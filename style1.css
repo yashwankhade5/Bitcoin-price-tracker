@@ -1,0 +1,25 @@
+#currency{
+    border-radius: 4px;
+    color: rgb(255, 255, 255);
+    background-color: orange;
+    
+}
+
+.bit{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.price{
+    display: flex;
+    height: 100vh;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+}
+
+.rates{
+    padding-left: 30px;
+    margin-left: 40px;
+}

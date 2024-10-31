@@ -1,0 +1,52 @@
+nav{
+    background-color: orange;
+    color: rgb(251, 251, 251);
+    padding: 0px 0px;
+    margin: 0px 0px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100vw;
+    
+}
+
+body{
+    margin: 0px ;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    background-image: url('images/bitcoin-vs-dollar-united-states-banknote-burning-background-conceptual-crypto-currency-finance-market-d-illustration-104016048.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.rates{
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size: 80px;   
+    background-color: orange;
+    border-radius: 50px;
+    padding: 10px;
+}
+
+@media only screen and (max-width: 800px) {
+    body {
+      background-color: rgb(215, 37, 14);
+      height: 100vh;
+      width: 100vw;
+    }
+    .rates{
+        font-size: 30px;
+    }
+    nav{
+     justify-content: space-between;
+    }
+    *{
+        overflow-y: hidden;
+    }
+  }
+
+
